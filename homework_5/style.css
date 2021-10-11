@@ -11,6 +11,13 @@ body {
 }
 
 /* home */
+#home {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
 header {
     background-color: rgba(208, 199, 197, 1);
     padding: 10px;
