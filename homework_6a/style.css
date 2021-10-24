@@ -10,14 +10,15 @@ body {
     src: url(LocalBakery-3zMz3.ttf);
 }
 
-/* home */
-#home {
+/* navigation */
+.nav-bar {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
 }
 
+/* home */
 header {
     background-color: rgba(208, 199, 197, 1);
     padding: 10px;
@@ -82,10 +83,6 @@ h1 {
 }
 
 /* product-browsing */
-#browsing {
-    margin: 0;
-}
-
 #products {
     margin: 0 auto;
     padding-top: 10px;
