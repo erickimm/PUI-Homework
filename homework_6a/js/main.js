@@ -103,7 +103,7 @@ var shoppingCart = (function () {
     };
 
     // Returns array (name, price, count, total) containing all items in the cart
-    obj.listCart = function () 
+    obj.listCart = function () {
         var cartCopy = [];
         console.log("Listing cart");
         console.log(cart);
