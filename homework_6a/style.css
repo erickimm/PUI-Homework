@@ -161,7 +161,7 @@ h1 {
 }
 
 .bun-form {
-    display: flex;
+    display: flex !important;
 }
 
 /* shopping cart */
