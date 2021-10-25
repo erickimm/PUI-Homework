@@ -8,6 +8,10 @@ var shoppingCart = (function () {
         this.count = count
     }
 
+    function getCart() {
+        return ["Item 1", "Item 2", "Item 3"]
+    }
+
     function saveCart() {
         localStorage.setItem("shoppingCart", JSON.stringify(cart));
     }
@@ -24,8 +28,22 @@ var shoppingCart = (function () {
     // ----> Shopping cart functions <----
     var obj = {};
 
+    function ArrayToList
+
+    // Create an unordered list
+    var list = document.createElement('ul');
+
+    // Create a list item for each bun
+    // and append it to the list
+    buns.forEach(function (buns) {
+        var li = document.createElement('li');
+        li.textContent = bun;
+        list.appendChild(li);
+    });
+
     // Adds items to cart
     obj.addItemToCart = function (name, price, count) {
+        console.log(name, price, count);
         for (var i in cart) {
             if (cart[i].name === name) {
                 cart[i].count += count;
