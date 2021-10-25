@@ -28,19 +28,6 @@ var shoppingCart = (function () {
     // ----> Shopping cart functions <----
     var obj = {};
 
-    function ArrayToList
-
-    // Create an unordered list
-    var list = document.createElement('ul');
-
-    // Create a list item for each bun
-    // and append it to the list
-    buns.forEach(function (buns) {
-        var li = document.createElement('li');
-        li.textContent = bun;
-        list.appendChild(li);
-    });
-
     // Adds items to cart
     obj.addItemToCart = function (name, price, count) {
         console.log(name, price, count);
