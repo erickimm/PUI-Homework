@@ -7,21 +7,33 @@
         <link rel="stylesheet" type="text/css" href="style.css">
     </head>
 
-    <body>
+    <body onload="updateCart()">
         <!-- navigation -->
         <div class="nav-bar">
             <header>
                 <h1> Bun Bun Bake Shop</h1>
-                <img src="img/hamburger.png" alt="" style="object-fit: cover;
-                                                            position: absolute; 
-                                                            left: 40px; 
-                                                            top: 45px;
-                                                            width: 40px;">
-                <a href="shoppingCart.html"> <img src="img/shopping_cart.png" alt="" style="object-fit: cover; 
-                                                                                            position: absolute;
-                                                                                            left: 1300px;
-                                                                                            top: 35px;
-                                                                                            width: 70px;"> </a>
+                <img src="img/hamburger.png" 
+                    alt="Dropdown Menu" 
+                    style="object-fit: cover;
+                            position: absolute; 
+                            left: 40px; 
+                            top: 45px;
+                            width: 40px;"
+                    >
+                <!-- cart display -->
+                <a href="shoppingCart.html"> 
+                    <img src="img/shopping_cart.png" 
+                    alt="Cart Icon" 
+                    style="object-fit: cover; 
+                            position: absolute;
+                            left: 1230px;
+                            top: 35px;
+                            width: 70px;"> 
+                    </a>
+                <!-- cart count display -->
+                <div class="cart-count-circle">
+                    <div class="cart-count"> 0 </div>
+                </div>
             </header>
         </div>
 
